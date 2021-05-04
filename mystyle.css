@@ -1,0 +1,40 @@
+table {
+  margin: auto;
+}
+button {
+  background-color:lightgreen;
+  font-size: 28px;
+  font-family: courier;
+}
+button:hover {
+  background-color:lightblue;
+  font-size: 28px;
+  font-family: courier;
+}
+
+th {
+  border: 1px solid #dddddd;
+  padding: 0px;
+  font-size: 40px;
+}
+h1,h2,h3 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color:lightgreen;
+  font-size: 28px;
+  font-family: courier;
+  display: block;
+  margin: auto;
+}
+button:hover {
+  background-color:lightblue;
+  font-size: 28px;
+  font-family: courier;
+}

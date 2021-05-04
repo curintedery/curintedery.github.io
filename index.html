@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html>
-<style>
-button {
-  background-color:lightgreen;
-}
-button:hover {
-  background-color:lightblue;
-}
-</style>
+<link rel="stylesheet" href="mystyle.css">
 <h1>
   New Website - Mr Durward :)
 </h1>
 <h2>
   Just trying out different styles and practicing my coding skills
 </h2>
-<body>
-<a href="https://www.google.com">
-  <img src="spongebob.webp" height="300" Width="300">
-</a>
-<p>
-<button>
+<table>
+    <tr>
+      <th>
+        <a href="index.html">
+          <img src="homepage.png">
+        </a>
+      </th>
+
+      <th> <a href="second.html">
+        <img src="second.png">
+      </a></th>
+      <th> <a href="about.html">
+        <img src="aboutme.png">
+      </a> </th>
+    </tr>
+
+</table>
+<h3>
+  Welcome to my website - Click any of the buttons above to take you to the different sections of my site. I hope you enjoy.
+</h3>
+<img src="spongebob.gif">
+<button onclick=hoverbutton()>
   Hover on me!
 </button>
 
-
-</body>
+<script>
+function hoverbutton() {
+  alert("I said hover - not click!")
+}
+</script>
 </html>
